@@ -1,0 +1,339 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.myname
+{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.596);
+    font-family: 'Island Moments', cursive;
+    font-size: 30px;
+    //font-weight: bold
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0 10px 10px rgb(10, 21, 49);
+}
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 273px;
+    float: left;
+    padding-top: 50%;
+    width: 400%;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(animationBack.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back
+{   
+    100%
+    {
+        background-position: 2000px 0;
+    }
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    transition: 0.6 ease-in-out;
+}
+ul li a:hover
+{
+    color: plum;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(184, 204, 218, 0.356);
+    margin: 13px;
+    color: rgb(229, 216, 241);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: rgba(105, 174, 230, 0.425);
+    border: 2px solid rgba(97, 139, 163, 0.363);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+}
+.content
+{
+    width: 700px;
+    height: auto;
+    margin: 150px auto 0;
+    color: rgba(255, 255, 255, 0.856);
+    position: relative;
+    //background-color: aqua;
+    text-align: center;
+}
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.main2
+{
+    background-color: rgba(27, 49, 78, 0.856);
+    height: 100vh;
+    width: 98.75vw;
+    display: flex;  
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.icon2{
+    width: 90%;
+}
+.logo2
+{
+    margin-right: 10px;
+    padding-left: 100px;
+    padding-top: 260px;
+    font-size: 80px;
+    color: rgb(218, 199, 199);
+    font-family: 'Julius Sans One', sans-serif;
+    //background-color: aqua; 
+}
+.para3
+{
+    padding-left: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 10px;
+    //background-color: palevioletred;
+}
+.btn2
+{
+    width: 210px;
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: rgba(255, 255, 255, 0.747);
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 35px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px rgb(43, 41, 41);
+}
+.card
+{
+    width: 220px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 5px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    box-shadow: 7px 7px 7px rgb(32, 31, 32);
+}
+.card1
+{
+    background-image: url(earth.jpg);
+}
+.card2
+{
+    background-image: url(moon.jpg);
+}
+.card3
+{
+    background-image: url(sun.jpg);
+}
+.card4
+{
+    background-image: url(tele.jpg);
+}
+.card:hover
+{
+    transform: translateY(-20px);
+}
+.card h5 
+{
+    color: rgba(132, 162, 223, 0.815);
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0 0 5px #999;
+}
+.card p
+{
+    color: rgba(210, 208, 231, 0.89);
+    font-size: 11px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.main3
+{
+    padding-top: 10px;
+    background-color: black;
+    height: 30vh;
+}
+.menu2
+{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: rgb(36, 117, 117); */
+}
+.menu2 li a
+{
+    color: rgba(115, 183, 238, 0.822);
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 120px;
+}
+.para2
+{
+    margin: 35px auto 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12.5px;
+    line-height: 20px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.main4
+{
+    padding-top: 10px;
+    background-color: rgba(72, 77, 83, 0.801);
+    height: 130vh;
+}
+.menu4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.menu4 h2
+{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.para4
+{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.para4-5
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+.vid1
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    /* box-shadow: 10px 10px 10px rgb(10, 21, 49); */
+}

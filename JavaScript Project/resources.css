@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.myname
+{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: rgba(107, 145, 226, 0.596);
+    font-family: 'Island Moments', cursive;
+    font-size: 30px;
+}
+.cmain1
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(resources.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    box-shadow: 0 10px 10px rgb(21, 51, 27);
+}
+.cnavbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.cicon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.clogo
+{
+    margin-top: 50px;
+    margin-left: 115px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    padding-left: 243px;
+    float: left;
+    padding-top: 50%;
+    width: 400%;
+    /* background-color: yellowgreen; */
+}
+.cmenu1
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    transition: 0.6 ease-in-out;
+}
+ul li a:hover
+{
+    color: plum;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(183, 193, 201, 0.356);
+    margin: 13px;
+    color: rgb(165, 154, 154);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: rgba(105, 174, 230, 0.425);
+    border: 2px solid rgba(97, 139, 163, 0.363);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+}
+.cmain2
+{
+    /* background-color: rgba(36, 37, 37, 0.89); */
+    height: 400vh;
+    width: 98.75vw;
+    display: flex;
+    /* color: #fff; */
+    color: black;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.div1
+{
+    padding-top: 40px;
+    /* background-color: rgba(143, 136, 136, 0.795); */
+    height: 105vh;
+    width: 1200px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 75px;
+}
+.div1 p
+{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+} 
+.div2
+{
+    /* background-color: blueviolet; */
+    height: 7vh;
+    width: 1200px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 75px;
+}
+.div3
+{
+    /* background-color: violet; */
+    height: 60vh;
+    width: 1200px;
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div31
+{
+    /* background-color: pink; */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div32
+{
+    /* background-color: rgb(170, 71, 88); */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div4
+{
+    /* background-color: blueviolet; */
+    height: 7vh;
+    width: 1200px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 75px;
+}
+.div5
+{
+    /* background-color: rgb(207, 146, 207); */
+    height: 60vh;
+    width: 1200px;
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div51
+{
+    /* background-color: rgb(155, 51, 68); */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div52
+{
+    /* background-color: rgb(82, 42, 48); */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div6
+{
+    /* background-color: blueviolet; */
+    height: 7vh;
+    width: 1200px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 75px;
+}
+.div7
+{
+    /* background-color: rgb(207, 146, 207); */
+    height: 60vh;
+    width: 1200px;
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div71
+{
+    /* background-color: rgb(155, 51, 68); */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div72
+{
+    /* background-color: rgb(82, 42, 48); */
+    height: 372px;
+    width: 550px;
+    margin: 10px;
+}
+.div8
+{
+    /* background-color: yellowgreen; */
+    height: 50vh;
+    width: 1200px;
+    margin-left: 75px;
+    padding-top: 50px;
+}
+.div81
+{
+    margin-left: 60px;
+}
+.cmain3
+{
+    padding-top: 10px;
+    background-color: black;
+    height: 30vh;
+}
+.cmenu3
+{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: rgb(36, 117, 117); */
+}
+.cmenu3 li a
+{
+    color: rgba(115, 183, 238, 0.822);
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 120px;
+}
+.para2
+{
+    margin: 35px auto 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12.5px;
+    line-height: 20px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}

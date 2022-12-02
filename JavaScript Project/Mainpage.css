@@ -1,0 +1,50 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+} 
+body
+{ 
+background: url(img3.jpg);
+} 
+ .card
+ { 
+ height: 400px; 
+ width: 250px; 
+ background: #fff; 
+ margin: 100px auto; 
+ border-radius: 20px; 
+ padding:40px; 
+ color:black; 
+ font-family: Arial, Helvetica, sans-serif; 
+ position: relative; 
+ overflow: hidden; 
+ transform:translate(0); 
+ font-weight: bold; 
+ } 
+ .card::after
+ { 
+ content:" "; 
+ height: 300px;
+ width: 300px; 
+ background: linear-gradient(90deg, rgb(228, 161, 16) 5%, rgb(243, 77, 11) 50%, rgb(153, 43, 129) 100%); 
+ /* background: url(moon.jpg); */
+ display: block; 
+ position: absolute; 
+ top:-150px; 
+ left:-100px; 
+ border-radius: 50%; 
+ z-index: -1; 
+ transition: all 1s; 
+ } 
+ .card:hover::after
+ { 
+ transform: scale(5); 
+ } 
+ .card:hover{ 
+ color:white 
+ } 
+ p{ 
+ margin-top: 30px; 
+ letter-spacing: 1px; 
+ word-spacing: 10px; 
+ }

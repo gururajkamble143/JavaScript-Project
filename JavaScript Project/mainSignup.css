@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.myname
+{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.596);
+    font-family: 'Island Moments', cursive;
+    font-size: 30px;
+    /* font-weight: bold */
+}
+.cmain1
+{
+    width: 100%;
+    background-color: black;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(contact.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+    box-shadow: 0 10px 10px rgb(21, 51, 27);
+}
+.cnavbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.cicon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.clogo
+{
+    margin-top: 50px;
+    margin-left: 115px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    padding-left: 243px;
+    float: left;
+    padding-top: 50%;
+    width: 400%;
+    /* background-color: yellowgreen; */
+}
+.cmenu1
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    transition: 0.6 ease-in-out;
+}
+ul li a:hover
+{
+    color: plum;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(183, 193, 201, 0.356);
+    margin: 13px;
+    color: rgb(165, 154, 154);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: rgba(239, 241, 243, 0.548);
+    border: 2px solid rgba(97, 139, 163, 0.363);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+}
+.loginpls
+{
+    margin-top: 100px;
+    margin-left: 25px;
+    padding: 10px;
+    /* background-color: rgb(126, 136, 136); */
+    width: 95%;
+    height: 175vh;
+}
+.aniimg1
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    /* background-color: aqua; */
+}
+img
+{
+    margin-top: 55px;
+    position: relative;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 30s linear infinite;
+}
+@-webkit-keyframes spin
+{
+    100%
+    {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.login
+{
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    width: 50%;
+    height: 120vh;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(19, 18, 18, 0.308);
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.349); */
+}
+.logTitl
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.cred1
+{
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 65px;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+.userN
+{
+    padding-left: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.cred2
+{   
+    margin-top: 38px;
+    margin-left: 65px;
+    padding-left: 10%;
+}
+.userP
+{
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.signup
+{
+    padding: 12px;
+    margin: 60px 124px 0;
+    background-color: rgb(235, 180, 30);
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+}
+.cmain2
+{
+    background-color: rgb(241, 244, 247);
+    height: 0.2vh;
+    width: 98.5vw;
+    display: flex;
+}
+.cmain3
+{
+    padding-top: 10px;
+    background-color: black;
+    height: 30vh;
+}
+.cmenu3
+{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: rgb(36, 117, 117); */
+}
+.cmenu3 li a
+{
+    color: rgba(115, 183, 238, 0.822);
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 120px;
+}
+.para2
+{
+    margin: 35px auto 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12.5px;
+    line-height: 20px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}

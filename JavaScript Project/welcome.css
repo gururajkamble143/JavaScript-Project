@@ -1,0 +1,104 @@
+*{ 
+    padding: 0; 
+    margin: 0;
+    user-select: none; 
+} 
+body
+{ 
+    height: 84vh;
+    width: 500px;
+    background: url(moon.jpg);
+    background-size: cover; 
+} 
+
+ .card
+ { 
+ height: 400px; 
+ width: 250px; 
+ background: rgb(222, 233, 236); 
+ margin: 100px 105%; 
+ border-radius: 20px; 
+ padding:40px; 
+ color:black; 
+ font-family: Arial, Helvetica, sans-serif; 
+ position: relative; 
+ overflow: hidden; 
+ transform:translate(0); 
+ font-weight: bold; 
+ font-family: 'Julius Sans One', sans-serif;
+ } 
+ .card h1
+ {
+    /* color: rgb(138, 30, 30); */
+ }
+ .card::after
+ { 
+ content:" "; 
+ height: 300px;
+ width: 300px; 
+ background: linear-gradient(90deg, rgb(206, 136, 196) 0%, rgb(116, 102, 196) 100%); 
+ /* background: url(moon.jpg); */
+ display: block; 
+ position: absolute; 
+ top:-150px; 
+ left:-100px; 
+ border-radius: 50%; 
+ z-index: -1; 
+ transition: all 1s; 
+ } 
+ .card:hover::after
+ { 
+ transform: scale(5); 
+ } 
+ .card:hover
+ { 
+ color:white 
+ } 
+ .inputbox
+ {
+    margin-top: 38px;
+ }
+ .inputbox input
+ {
+    height: 30px;
+    width: 220px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(137, 43, 226, 0.1);
+    background: rgba(255, 192, 203, 0.582);
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgb(167, 148, 154);
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+ }
+ button
+ {
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(157, 68, 192, 0.87);
+    height: 40px;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline;
+    margin-left: 52px;
+    margin-top: 30px;
+    border: none;
+    font-weight: bold;
+ }
+ #btn1
+ {
+    margin-left: 62px;
+    width: 133px;
+    background-color: rgb(84, 125, 201);
+ }
+ .inputbox #btn:active
+ {
+    background-color: blueviolet;
+    transform: scale(.95);
+ }
+ .inputbox #btn1:active
+ {
+    background-color: rgba(38, 109, 168, 0.842);
+    transform: scale(.95);
+ }
